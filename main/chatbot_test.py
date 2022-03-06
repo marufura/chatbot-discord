@@ -1,6 +1,9 @@
+import os
 import sys
 import requests
 import urllib.parse
+
+sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 import config.chatbot_config as config
 
 
